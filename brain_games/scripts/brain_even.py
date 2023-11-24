@@ -11,17 +11,25 @@ def welcome_user() -> str:
 
 
 def parity_check() -> bool:
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     num = randint(1, 100)
+
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     print('Question: ' + str(num))
     answer = prompt.string('Your answer: ')
-    if (num % 2 == 0 and answer == 'yes') or (num % 2 != 0 and answer == 'no'):
+
+    if (num % 2 == 0 and answer == 'yes'):
         print('Correct!')
         return True
+
+    elif (num % 2 != 0 and answer == 'no'):
+        print('Correct!')
+        return True
+
     elif num % 2 != 0 and answer == 'yes':
         print("'yes' is wrong answer ;(. Correct answer was 'no'.")
         print("Let's try again, {0}!".format(name))
         return False
+
     elif num % 2 == 0 and answer == 'no':
         print("'no' is wrong answer ;(. Correct answer was 'yes'.")
         print("Let's try again, {0}!".format(name))
