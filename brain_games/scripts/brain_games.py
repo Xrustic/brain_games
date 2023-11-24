@@ -3,7 +3,8 @@ from ..cli import welcome_user
 
 
 def main():
-    welcome_user()
+    name = welcome_user()
+    parity_check()
 
 
 if __name__ == '__main__':
