@@ -3,3 +3,6 @@
 
 ### Maintainability Badge
 <a href="https://codeclimate.com/github/Xrustic/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/368258a69f6567c3d242/maintainability" /></a>
+
+### Аскинема
+https://asciinema.org/a/DkQXMNznvpMda9x1JaDNZDFP3
