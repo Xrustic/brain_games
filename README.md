@@ -8,3 +8,5 @@
 5 часть проекта: https://asciinema.org/a/DkQXMNznvpMda9x1JaDNZDFP3
 
 6 часть проекта:  https://asciinema.org/a/wQ6NPxtsUo2noM9JprHbSsGX2
+
+7 часть проекта:  https://asciinema.org/a/8PNiWvyMw9xVzVyBssCVsh9OK
