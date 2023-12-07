@@ -2,18 +2,16 @@ import prompt
 from random import randint
 
 i = 0
-name = ''
 
 
 def welcome_user() -> str:
-    global name
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     return name
 
 
-def brain_progression():
+def brain_progression(name: str):
     global i
     num = randint(1, 100)
     number_of_elements = randint(5, 10)
@@ -50,4 +48,4 @@ def main():
     name = welcome_user()
     print('What number is missing in the progression?')
     while i < 3:
-        brain_progression()
+        brain_progression(name)

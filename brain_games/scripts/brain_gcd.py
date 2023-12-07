@@ -2,18 +2,16 @@ import prompt
 from random import randint
 
 i = 0
-name = ''
 
 
 def welcome_user() -> str:
-    global name
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     return name
 
 
-def brain_gcd():
+def brain_gcd(name: str):
     global i
     num1 = randint(1, 100)
     num2 = randint(1, 100)
@@ -47,7 +45,7 @@ def greatest_common_divisor(num1, num2) -> int:
         big = num2
         small = num1
         divisor = small
-    
+
     while big % divisor != 0 or small % divisor != 0:
         divisor -= 1
     return divisor
@@ -57,4 +55,4 @@ def main():
     name = welcome_user()
     print('Find the greatest common divisor of given numbers.')
     while i < 3:
-        brain_gcd()
+        brain_gcd(name)
