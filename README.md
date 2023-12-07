@@ -7,10 +7,10 @@
 ### Аскинема
 5 часть проекта (Проверка на чётность): https://asciinema.org/a/DkQXMNznvpMda9x1JaDNZDFP3
 
-6 часть проекта (Калькулятор):  https://asciinema.org/a/wQ6NPxtsUo2noM9JprHbSsGX2
+6 часть проекта (Калькулятор): https://asciinema.org/a/OajqT2Qd1gjAVV9qDCA1kYhOs
 
-7 часть проекта (НОД):  https://asciinema.org/a/8PNiWvyMw9xVzVyBssCVsh9OK
+7 часть проекта (НОД): https://asciinema.org/a/8PNiWvyMw9xVzVyBssCVsh9OK
 
-8 часть проекта (Арифметическая прогрессия):  https://asciinema.org/a/48x2WuRmUnBtOSm8w2IsI4GjF
+8 часть проекта (Арифметическая прогрессия): https://asciinema.org/a/48x2WuRmUnBtOSm8w2IsI4GjF
 
-9 часть проекта (Простое ли число?):  https://asciinema.org/a/0P2busvEDGxPiEQ7BCGltfP3A
+9 часть проекта (Простое ли число?): https://asciinema.org/a/0P2busvEDGxPiEQ7BCGltfP3A

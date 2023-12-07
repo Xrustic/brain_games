@@ -33,6 +33,8 @@ def brain_calc(options, name: str):
     if (result == answer):
         print('Correct!')
         i += 1
+        if i == 3:
+                print('Congratulations, {0}!'.format(name))
 
     elif (result != answer):
         print(str(answer) + " is wrong answer ;(. Correct answer was " + str(result) + '.')
