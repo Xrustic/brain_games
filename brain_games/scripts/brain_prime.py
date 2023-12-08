@@ -25,7 +25,10 @@ def brain_prime(name: str):
     print('Question: ' + str(num))
     answer = prompt.string('Your answer: ')
 
-    if (answer == 'yes' and is_prime(num)) or (answer == 'no' and is_prime(num) is False):
+    if answer == 'yes' and is_prime(num):
+        print('Correct!')
+        i += 1
+    elif answer == 'no' and is_prime(num) is False:
         print('Correct!')
         i += 1
     else:
@@ -34,7 +37,8 @@ def brain_prime(name: str):
             result = 'no'
         else:
             result = 'yes'
-        print("'" + str(answer) + "'" + " is wrong answer ;(. Correct answer was " + "'" + result + "'" + '.')
+        print("'" + str(answer) + "'" + " is wrong answer ;(. "
+              "Correct answer was " + "'" + result + "'" + '.')
         print("Let's try again, {0}!".format(name))
         i = 3
 

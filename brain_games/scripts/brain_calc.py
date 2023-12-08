@@ -18,15 +18,15 @@ def brain_calc(options, name: str):
     result = 0
 
     if options == 0:
-        print('Question: ' + str(num1) + '+' + str(num2))
+        print('Question: ' + str(num1) + ' ' + '+' + ' ' + str(num2))
         result = num1 + num2
 
     elif options == 1:
-        print('Question: ' + str(num1) + '-' + str(num2))
+        print('Question: ' + str(num1) + ' ' + '-' + ' ' + str(num2))
         result = num1 - num2
 
     elif options == 2:
-        print('Question: ' + str(num1) + '*' + str(num2))
+        print('Question: ' + str(num1) + ' ' + '*' + ' ' + str(num2))
         result = num1 * num2
     answer = prompt.integer('Your answer: ')
 
@@ -34,10 +34,11 @@ def brain_calc(options, name: str):
         print('Correct!')
         i += 1
         if i == 3:
-                print('Congratulations, {0}!'.format(name))
+            print('Congratulations, {0}!'.format(name))
 
     elif (result != answer):
-        print(str(answer) + " is wrong answer ;(. Correct answer was " + str(result) + '.')
+        print(str(answer) + " is wrong answer ;(. "
+              "Correct answer was " + str(result) + '.')
         print("Let's try again, {0}!".format(name))
         i = 3
 
