@@ -5,12 +5,12 @@
 <a href="https://codeclimate.com/github/Xrustic/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/368258a69f6567c3d242/maintainability" /></a>
 
 ### Аскинема
-5 часть проекта (Проверка на чётность): https://asciinema.org/a/DkQXMNznvpMda9x1JaDNZDFP3
+5 часть проекта (Проверка на чётность): https://asciinema.org/a/pNqvwVdck0FxlKXXg1vRq3K1q
 
-6 часть проекта (Калькулятор): https://asciinema.org/a/OajqT2Qd1gjAVV9qDCA1kYhOs
+6 часть проекта (Калькулятор): https://asciinema.org/a/6SSX34mk6oaEdUwteHNi6xVZ8
 
-7 часть проекта (НОД): https://asciinema.org/a/8PNiWvyMw9xVzVyBssCVsh9OK
+7 часть проекта (НОД): https://asciinema.org/a/V8JD81inEwuUSxiEwFOG61O61
 
-8 часть проекта (Арифметическая прогрессия): https://asciinema.org/a/48x2WuRmUnBtOSm8w2IsI4GjF
+8 часть проекта (Арифметическая прогрессия): https://asciinema.org/a/Bs4bnlua68eb3YvXoW7Q6oEYo
 
-9 часть проекта (Простое ли число?): https://asciinema.org/a/0P2busvEDGxPiEQ7BCGltfP3A
+9 часть проекта (Простое ли число?): https://asciinema.org/a/LreAEp1RQnZrOcizpTuJjuldn

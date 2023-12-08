@@ -6,7 +6,6 @@ from .welcome_user import welcome_user
 def parity_check(name) -> bool:
     num = randint(1, 100)
 
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     print('Question: ' + str(num))
     answer = prompt.string('Your answer: ')
 
@@ -32,6 +31,7 @@ def parity_check(name) -> bool:
 def main():
     name = welcome_user()
     i = 0
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     while i < 3:
         if (parity_check(name)):
             i += 1

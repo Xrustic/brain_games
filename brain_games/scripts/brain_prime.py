@@ -22,9 +22,13 @@ def brain_prime(name: str):
     if answer == 'yes' and is_prime(num):
         print('Correct!')
         i += 1
+        if i == 3:
+            print('Congratulations, {0}!'.format(name))
     elif answer == 'no' and is_prime(num) is False:
         print('Correct!')
         i += 1
+        if i == 3:
+            print('Congratulations, {0}!'.format(name))
     else:
         result = 'abc'
         if answer == 'yes':
@@ -42,3 +46,4 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     while i < 3:
         brain_prime(name)
+
