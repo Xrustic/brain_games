@@ -3,38 +3,58 @@ from random import randint
 from .welcome_user import welcome_user
 
 i = 0
+result = 0
 
 
 def brain_calc(options, name: str):
     global i
+    global result
     num1 = randint(1, 100)
     num2 = randint(1, 100)
-    result = 0
 
     if options == 0:
-        print('Question: ' + str(num1) + ' + ' + str(num2))
-        result = num1 + num2
+        addition(num1, num2)
 
-    elif options == 1:
-        print('Question: ' + str(num1) + ' - ' + str(num2))
-        result = num1 - num2
+    else:
+        substraction(num1, num2) if options == 1 else multi(num1, num2)
 
-    elif options == 2:
-        print('Question: ' + str(num1) + ' * ' + str(num2))
-        result = num1 * num2
     answer = prompt.integer('Your answer: ')
 
-    if (result == answer):
-        print('Correct!')
-        i += 1
-        if i == 3:
-            print('Congratulations, {0}!'.format(name))
+    correct(name) if result == answer else wrong(answer, result, name)
 
-    elif (result != answer):
-        print(str(answer) + " is wrong answer ;(. "
-              "Correct answer was " + str(result) + '.')
-        print("Let's try again, {0}!".format(name))
-        i = 3
+
+def multi(num1, num2):
+    global result
+    print('Question: ' + str(num1) + ' * ' + str(num2))
+    result = num1 * num2
+
+
+def substraction(num1, num2):
+    global result
+    print('Question: ' + str(num1) + ' - ' + str(num2))
+    result = num1 - num2
+
+
+def addition(num1, num2):
+    global result
+    print('Question: ' + str(num1) + ' + ' + str(num2))
+    result = num1 + num2
+
+
+def wrong(answer, result, name: str):
+    global i
+    print(str(answer) + " is wrong answer ;(. "
+          "Correct answer was " + str(result) + '.')
+    print("Let's try again, {0}!".format(name))
+    i = 3
+
+
+def correct(name: str):
+    global i
+    print('Correct!')
+    i += 1
+    if i == 3:
+        print('Congratulations, {0}!'.format(name))
 
 
 def main():
