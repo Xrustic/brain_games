@@ -1,14 +1,8 @@
 import prompt
 from random import randint
+from .welcome_user import welcome_user
 
 i = 0
-
-
-def welcome_user() -> str:
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
-    return name
 
 
 def is_prime(num) -> bool:

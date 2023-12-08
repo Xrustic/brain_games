@@ -1,14 +1,8 @@
 import prompt
 from random import randint
+from .welcome_user import welcome_user
 
 i = 0
-
-
-def welcome_user() -> str:
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
-    return name
 
 
 def brain_calc(options, name: str):
@@ -18,15 +12,15 @@ def brain_calc(options, name: str):
     result = 0
 
     if options == 0:
-        print('Question: ' + str(num1) + ' ' + '+' + ' ' + str(num2))
+        print('Question: ' + str(num1) + ' + ' + str(num2))
         result = num1 + num2
 
     elif options == 1:
-        print('Question: ' + str(num1) + ' ' + '-' + ' ' + str(num2))
+        print('Question: ' + str(num1) + ' - ' + str(num2))
         result = num1 - num2
 
     elif options == 2:
-        print('Question: ' + str(num1) + ' ' + '*' + ' ' + str(num2))
+        print('Question: ' + str(num1) + ' * ' + str(num2))
         result = num1 * num2
     answer = prompt.integer('Your answer: ')
 

@@ -1,16 +1,9 @@
 import prompt
 from random import randint
+from .welcome_user import welcome_user
 
 
-def welcome_user() -> str:
-    print('Welcome to the Brain Games!')
-    global name
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
-    return name
-
-
-def parity_check() -> bool:
+def parity_check(name) -> bool:
     num = randint(1, 100)
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -40,7 +33,7 @@ def main():
     name = welcome_user()
     i = 0
     while i < 3:
-        if (parity_check()):
+        if (parity_check(name)):
             i += 1
         else:
             return
