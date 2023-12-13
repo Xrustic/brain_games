@@ -2,7 +2,14 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Topic :: Games/Entertainment",
+    "Programming Language :: Python :: 3.10",
+    "Framework :: Flake8" 
+]
 authors = ["Sesiunina Olga <sesyunina.olga7@gmail.com>"]
+repository = "https://github.com/Xrustic/python-project-49"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
@@ -23,8 +30,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "brain_games.scripts.brain_calc:main"
-brain-gcd = "brain_games.scripts.brain_gcd:main"
-brain-progression = "brain_games.scripts.brain_progression:main"
-brain-prime = "brain_games.scripts.brain_prime:main"
+brain-even = "brain_games.games.brain_even:main"
+brain-calc = "brain_games.games.brain_calc:main"
+brain-gcd = "brain_games.games.brain_gcd:main"
+brain-progression = "brain_games.games.brain_progression:main"
+brain-prime = "brain_games.games.brain_prime:main"

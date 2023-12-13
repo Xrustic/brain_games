@@ -1,6 +1,8 @@
 import prompt
 from random import randint
-from .welcome_user import welcome_user
+import sys
+sys.path.insert(1, '/home/olga/Projects/python-project-49/brain_games/scripts/')
+from welcome_user import welcome_user
 
 
 def parity_check(name) -> bool:
