@@ -1,7 +1,8 @@
 import prompt
-from random import randint
 import sys
-sys.path.insert(1, '/home/olga/Projects/python-project-49/brain_games/scripts/')
+import os
+from random import randint
+sys.path.insert(1, os.path.abspath("brain_games/scripts/"))
 from welcome_user import welcome_user
 
 
