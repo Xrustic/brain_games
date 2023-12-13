@@ -62,3 +62,7 @@ def main():
     print('What is the result of the expression?')
     while i < 3:
         brain_calc(randint(0, 2), name)
+
+
+if __name__ == '__main__':
+    main()

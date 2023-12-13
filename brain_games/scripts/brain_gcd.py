@@ -53,3 +53,7 @@ def main():
     print('Find the greatest common divisor of given numbers.')
     while i < 3:
         brain_gcd(name)
+
+
+if __name__ == '__main__':
+    main()

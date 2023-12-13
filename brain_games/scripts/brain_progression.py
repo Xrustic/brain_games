@@ -46,3 +46,7 @@ def main():
     print('What number is missing in the progression?')
     while i < 3:
         brain_progression(name)
+
+
+if __name__ == '__main__':
+    main()

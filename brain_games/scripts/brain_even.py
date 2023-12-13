@@ -5,7 +5,6 @@ from .welcome_user import welcome_user
 
 def parity_check(name) -> bool:
     num = randint(1, 100)
-
     print('Question: ' + str(num))
     answer = prompt.string('Your answer: ')
 

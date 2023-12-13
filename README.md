@@ -1,3 +1,7 @@
+Этот проект запускает определенные игры на математические знания. В нем содержаться такие игры как: Проверка на четность, калькулятор, НОД(Наибольший общий делитель), арифметическая прогрессия и "Простое ли число?".
+
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Xrustic/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Xrustic/python-project-49/actions)
 
