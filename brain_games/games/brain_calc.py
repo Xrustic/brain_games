@@ -1,9 +1,6 @@
 import prompt
-import sys
-import os
 from random import randint
-sys.path.insert(1, os.path.abspath("brain_games/scripts/"))
-from welcome_user import welcome_user
+from brain_games.scripts.welcome_user import welcome_user
 
 i = 0
 result = 0
