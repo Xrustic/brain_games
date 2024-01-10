@@ -8,13 +8,13 @@ def calc():
     expression = randint(0, 2)
     instruction = 'What is the result of the expression?'
     if expression == 0:
-        question = str(str(x) + '+' + str(y))
+        question = str(str(x) + ' + ' + str(y))
         right_answer = x + y
     elif expression == 1:
-        question = str(str(x) + '-' + str(y))
+        question = str(str(x) + ' - ' + str(y))
         right_answer = x - y
     else:
-        question = str(str(x) + '*' + str(y))
+        question = str(str(x) + ' * ' + str(y))
         right_answer = x * y
     return instruction, question, right_answer
 
