@@ -9,7 +9,7 @@ def run_game(get_question_and_answer):
     i = 0
     while i < 3:
         instruction, question, right_answer = get_question_and_answer()
-        print(question)
+        print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
         if str(answer) == str(right_answer):
             print('Correct!')
