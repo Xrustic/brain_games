@@ -1,6 +1,7 @@
 from brain_games.games.engine import run_game
 from random import randint
 
+
 def calc():
     x = randint(1, 10)
     y = randint(1, 10)

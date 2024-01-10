@@ -1,6 +1,7 @@
 from brain_games.games.engine import run_game
 from random import randint
 
+
 def progression():
     num = randint(1, 100)
     number_of_elements = randint(5, 10)
@@ -22,6 +23,7 @@ def progression():
     question = progression
     right_answer = number_to_hide
     return instruction, question, right_answer
+
 
 def run_progression_game():
     run_game(progression)

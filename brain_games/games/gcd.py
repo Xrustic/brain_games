@@ -1,6 +1,7 @@
 from brain_games.games.engine import run_game
 from random import randint
 
+
 def gcd():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
