@@ -11,7 +11,7 @@ def progression():
 
     index = randint(0, number_of_elements - 1)
     numbers = (num, )
-    progression = ' ' + str(num) + ' '
+    progression = str(num) + ' '
     while counter < number_of_elements:
         num += step
         progression += str(num) + ' '
@@ -19,7 +19,7 @@ def progression():
         counter += 1
 
     number_to_hide = str(numbers[index])
-    progression = progression.replace(number_to_hide, ' .. ').strip()
+    progression = progression.replace(number_to_hide, '..')
     question = progression
     right_answer = number_to_hide
     return instruction, question, right_answer
