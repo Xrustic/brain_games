@@ -14,15 +14,25 @@
 
 Так же вам потребуется установленная библиотека prompt. Для установки введите команду "pip install prompt".
 
-Чтобы запустить игры на вашем компьютере необходимо сначала установить все, что прописано выше, а после в командной строке написать необходимую команду для запуска игры (команды: калькулятор (brain-calc), Проверка на четность (brain-even), НОД (brain-gcd), "Простое ли число?" (brain-prime), арифметическая прогрессия (brain-progression)).
+Чтобы запустить игры на вашем компьютере необходимо сначала установить все, что прописано выше, а после в командной строке написать необходимую команду для запуска игры:
+
+калькулятор (brain-calc)
+
+Проверка на четность (brain-even)
+
+НОД(наибольший общий делитель) (brain-gcd)
+
+"Простое ли число?" (brain-prime)
+
+арифметическая прогрессия (brain-progression))
 
 ### Аскинема
-5 часть проекта (Проверка на чётность): https://asciinema.org/a/pNqvwVdck0FxlKXXg1vRq3K1q
+5 часть проекта (Проверка на чётность): <script src="https://asciinema.org/a/pNqvwVdck0FxlKXXg1vRq3K1q"></script>
 
-6 часть проекта (Калькулятор): https://asciinema.org/a/6SSX34mk6oaEdUwteHNi6xVZ8
+6 часть проекта (Калькулятор): <script src="https://asciinema.org/a/6SSX34mk6oaEdUwteHNi6xVZ8"></script>
 
-7 часть проекта (НОД): https://asciinema.org/a/V8JD81inEwuUSxiEwFOG61O61
+7 часть проекта (НОД): <script src="https://asciinema.org/a/V8JD81inEwuUSxiEwFOG61O61"></script>
 
-8 часть проекта (Арифметическая прогрессия): https://asciinema.org/a/Bs4bnlua68eb3YvXoW7Q6oEYo
+8 часть проекта (Арифметическая прогрессия): <script src="https://asciinema.org/a/Bs4bnlua68eb3YvXoW7Q6oEYo"></script>
 
-9 часть проекта (Простое ли число?): https://asciinema.org/a/LreAEp1RQnZrOcizpTuJjuldn
+9 часть проекта (Простое ли число?): <script src="https://asciinema.org/a/LreAEp1RQnZrOcizpTuJjuldn"></script>
