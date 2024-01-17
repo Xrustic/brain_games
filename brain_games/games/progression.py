@@ -12,7 +12,7 @@ def get_progression_and_ans():
     progr_str = str(progr)
     progr_str = ' ' + progr_str + ' '
     progr_str = progr_str.replace(',', '').replace('[', '').replace(']', '')
-    progr_str = progr_str.replace(right_answer, ' .. ')
+    progr_str = progr_str.replace(right_answer, ' .. ').strip()
     right_answer = right_answer.strip()
     return progr_str, right_answer
 
