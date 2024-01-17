@@ -1,10 +1,10 @@
 from brain_games.engine import run_game
-from random import randint
+import random
 from brain_games.consts import INSTRUCTION_PRIME
 
 
 def get_prime_or_not():
-    question = randint(1, 100)
+    question = random.randint(1, 100)
     result = 'yes' if is_prime(question) else 'no'
     return question, result
 

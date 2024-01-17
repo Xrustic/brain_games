@@ -27,15 +27,12 @@
 арифметическая прогрессия (brain-progression))
 
 ### Аскинема
-5 часть проекта (Проверка на чётность): <script src="https://asciinema.org/a/pNqvwVdck0FxlKXXg1vRq3K1q"></script>
+5 часть проекта (Проверка на чётность): <a href="https://asciinema.org/a/obHxxrgc3T9z7GS8cpLtmQBDN" target="_blank"><img src="https://asciinema.org/a/obHxxrgc3T9z7GS8cpLtmQBDN.svg" /></a>
 
-6 часть проекта (Калькулятор): <script src="https://asciinema.org/a/6SSX34mk6oaEdUwteHNi6xVZ8"></script>
+6 часть проекта (Калькулятор): <a href="https://asciinema.org/a/xBSGXxrO6VyVGaPGLJAY7rjGg" target="_blank"><img src="https://asciinema.org/a/xBSGXxrO6VyVGaPGLJAY7rjGg.svg" /></a>
 
-7 часть проекта (НОД): <script src="https://asciinema.org/a/V8JD81inEwuUSxiEwFOG61O61"></script>
+7 часть проекта (НОД): <a href="https://asciinema.org/a/J73DtlQpf76fRiEUIByLmRE6q" target="_blank"><img src="https://asciinema.org/a/J73DtlQpf76fRiEUIByLmRE6q.svg" /></a>
 
-8 часть проекта (Арифметическая прогрессия): <script src="https://asciinema.org/a/Bs4bnlua68eb3YvXoW7Q6oEYo"></script>
+8 часть проекта (Арифметическая прогрессия): <a href="https://asciinema.org/a/db5smOJSP1JBBVGBvZmBSPZZS" target="_blank"><img src="https://asciinema.org/a/db5smOJSP1JBBVGBvZmBSPZZS.svg" /></a>
 
-9 часть проекта (Простое ли число?): <script src="https://asciinema.org/a/LreAEp1RQnZrOcizpTuJjuldn"></script>
-
-
-<a href="https://asciinema.org/a/7U5oIJr7NZDaULJy3SsKkJjLE" target="_blank"><img src="https://asciinema.org/a/7U5oIJr7NZDaULJy3SsKkJjLE.svg" /></a>
+9 часть проекта (Простое ли число?): <a href="https://asciinema.org/a/qs1jGWqSPG3Rt9Zz75jub45bR" target="_blank"><img src="https://asciinema.org/a/qs1jGWqSPG3Rt9Zz75jub45bR.svg" /></a>

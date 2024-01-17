@@ -21,8 +21,8 @@ def get_progression():
     number_to_hide = ' ' + str(numbers[index]) + ' '
     question = progression.replace(number_to_hide, ' .. ').strip()
     result = number_to_hide.strip()
-    return question, str(result)    
-    
+    return question, str(result)
+
 
 def run_progression_game():
     run_game(get_progression, INSTRUCTION_PROGRESSION)
