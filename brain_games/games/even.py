@@ -1,12 +1,13 @@
 from brain_games.engine import run_game
 from random import randint
+from brain_games.consts import INSTRUCTION_EVEN
 
 
-def even_or_not():
+def get_num_and_even_ans():
     question = randint(1, 100)
-    right_answer = 'yes' if question % 2 == 0 else 'no'
-    return question, right_answer
+    result = 'yes' if question % 2 == 0 else 'no'
+    return question, result
 
 
-def run_even_game(instruction):
-    run_game(even_or_not, instruction)
+def run_even_game():
+    run_game(get_num_and_even_ans, INSTRUCTION_EVEN)

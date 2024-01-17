@@ -5,3 +5,4 @@ INSTRUCTION_GCD = 'Find the greatest common divisor of given numbers.'
 INSTRUCTION_PRIME = 'Answer "yes" if given number is prime. \
 Otherwise answer "no".'
 INSTRUCTION_PROGRESSION = 'What number is missing in the progression?'
+MATH_SIGNS = ['+', '-', '*']

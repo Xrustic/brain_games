@@ -1,11 +1,12 @@
 from brain_games.engine import run_game
 from random import randint
+from brain_games.consts import INSTRUCTION_PRIME
 
 
-def prime():
+def get_prime_or_not():
     question = randint(1, 100)
-    right_answer = 'yes' if is_prime(question) else 'no'
-    return question, right_answer
+    result = 'yes' if is_prime(question) else 'no'
+    return question, result
 
 
 def is_prime(num):
@@ -16,5 +17,5 @@ def is_prime(num):
     return True if k <= 0 else False
 
 
-def run_prime_game(instruction):
-    run_game(prime, instruction)
+def run_prime_game():
+    run_game(get_prime_or_not, INSTRUCTION_PRIME)

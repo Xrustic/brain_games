@@ -1,16 +1,15 @@
 from brain_games.engine import run_game
 import random
-from random import randint
+from brain_games.consts import INSTRUCTION_CALC, MATH_SIGNS
 
 
-def calculation():
-    num1, num2 = randint(1, 100), randint(1, 100)
-    mylist = ['+', '-', '*']
-    expression = random.choice(mylist)
-    question = str(num1) + ' ' + expression + ' ' + str(num2)
-    right_answer = eval(question)
-    return question, str(right_answer)
+def get_math_expression_and_res():
+    num1, num2 = random.randint(1, 100), random.randint(1, 100)
+    math_sign = random.choice(MATH_SIGNS)
+    question = (f'{num1} {math_sign} {num2}')
+    result = eval(question)
+    return question, str(result)
 
 
-def run_calc_game(instruction):
-    run_game(calculation, instruction)
+def run_calc_game():
+    run_game(get_math_expression_and_res, INSTRUCTION_CALC)

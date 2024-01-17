@@ -36,3 +36,6 @@
 8 часть проекта (Арифметическая прогрессия): <script src="https://asciinema.org/a/Bs4bnlua68eb3YvXoW7Q6oEYo"></script>
 
 9 часть проекта (Простое ли число?): <script src="https://asciinema.org/a/LreAEp1RQnZrOcizpTuJjuldn"></script>
+
+
+<a href="https://asciinema.org/a/7U5oIJr7NZDaULJy3SsKkJjLE" target="_blank"><img src="https://asciinema.org/a/7U5oIJr7NZDaULJy3SsKkJjLE.svg" /></a>
