@@ -7,7 +7,7 @@ from brain_games.consts import INSTRUCTION_GCD
 def find_greatest_common_devisor():
     num1, num2 = random.randint(1, 100), random.randint(1, 100)
     result = math.gcd(num1, num2)
-    question = str(num1) + ' ' + str(num2)
+    question = (f'{num1} {num2}')
     return question, str(result)
 
 

@@ -5,8 +5,8 @@ from brain_games.consts import ITERATIONS
 def run_game(get_question_and_answer, instruction):
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? \n')
-    print(f'Hello, {name}!')
-    print(instruction)
+    print(f'Hello, {name}!\n'
+          f'{instruction}')
     for i in range(ITERATIONS):
         question, right_answer = get_question_and_answer()
         answer = prompt.string(f'Question: {question}\n'

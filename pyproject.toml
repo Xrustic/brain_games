@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "hexlet learning project 1"
+description = "hexlet learning project 1, where you can play the calculator"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Topic :: Games/Entertainment",

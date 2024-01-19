@@ -1,20 +1,19 @@
 from brain_games.engine import run_game
 import random
 from brain_games.consts import INSTRUCTION_PROGRESSION
+from brain_games.consts import MIN_PROGRESSION_LENGHT, MAX_PROGRESSION_LENGHT
 
 
 def get_progression_and_ans():
-    num, step = random.randint(1, 100), random.randint(1, 10)
-    progr = [num]
-    for i in range(random.randint(5, 10)):
-        progr.append(progr[-1] + step)
-    right_answer = ' ' + str(progr[random.randint(0, len(progr) - 1)]) + ' '
-    progr_str = str(progr)
-    progr_str = ' ' + progr_str + ' '
-    progr_str = progr_str.replace(',', '').replace('[', '').replace(']', '')
-    progr_str = progr_str.replace(right_answer, ' .. ').strip()
-    right_answer = right_answer.strip()
-    return progr_str, right_answer
+    start, step = random.randint(1, 100), random.randint(1, 10)
+    progr = []
+    for i in range(MIN_PROGRESSION_LENGHT, MAX_PROGRESSION_LENGHT):
+        progr.append(start + step * i)
+    missed_index = random.randint(0, len(progr) - 1)
+    missed_num = progr[missed_index]
+    progr[missed_index] = '..'
+    progr_with_missed_num = ' '.join(map(str, progr))
+    return progr_with_missed_num, str(missed_num)
 
 
 def run_progression_game():

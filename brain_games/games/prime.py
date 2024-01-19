@@ -3,7 +3,7 @@ import random
 from brain_games.consts import INSTRUCTION_PRIME
 
 
-def get_prime_or_not():
+def get_num_and_prime_ans():
     question = random.randint(1, 100)
     result = 'yes' if is_prime(question) else 'no'
     return question, result
@@ -18,4 +18,4 @@ def is_prime(num):
 
 
 def run_prime_game():
-    run_game(get_prime_or_not, INSTRUCTION_PRIME)
+    run_game(get_num_and_prime_ans, INSTRUCTION_PRIME)

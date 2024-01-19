@@ -6,3 +6,4 @@ INSTRUCTION_PRIME = 'Answer "yes" if given number is prime. \
 Otherwise answer "no".'
 INSTRUCTION_PROGRESSION = 'What number is missing in the progression?'
 MATH_SIGNS = ['+', '-', '*']
+MIN_PROGRESSION_LENGHT, MAX_PROGRESSION_LENGHT = 5, 10
